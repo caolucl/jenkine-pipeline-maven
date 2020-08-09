@@ -16,9 +16,10 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            cleanWs()
-        }
-    }
+    #Delete workspace
+    #post {
+    #    always {
+    #        cleanWs()
+    #    }
+    #}
 }
