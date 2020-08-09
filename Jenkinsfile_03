@@ -24,7 +24,7 @@ pipeline {
     post {
         always {
             //cleanWs()
-            echo "completed!"
+            sh "echo completed!"
         }
     }
 }
